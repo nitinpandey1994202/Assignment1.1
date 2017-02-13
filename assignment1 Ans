@@ -1,0 +1,32 @@
+1)Various sources of big data:
+Ans-various sources of big data can be anything like:
+ 1)we can take a example of facebook we used to do upload images,videos etc. it is considerd as sources of big data.
+    according to the survey 7 peta bite data generates daily basis.
+ 2)we can take a example online shopping where huge data stored daily basis.
+ 3)other is banks where daily huge transactions takes place everyday that is also the source of big data.
+ 4)stock excange is also the example of big data where 4-5 terabite data generates daily.
+ 5)internet archieves stores around 18.5 petabite data daily basis that is also best source of big data.
+ 
+ 2)3 v's of big data:
+ Ans:1) Volume-quantity of data.
+     2) velocity-how much data is generating(flow of data)
+     3) variety-types of data(Structured.un-Structured,semi-Structured)
+     
+ 3)horizontal scaling and vertical scaling:
+ Ans: Horizontal scaling: when we decentralize the operation of data instead of increasing the load of one machine ,we use more 
+ machine to store and process of data.
+       Vertical scaling:when we centralize our operation of data ,we depend upon only one machine to operate the data.
+       demerits:1)process of data may be slow.
+                2)cost increase
+ 
+ 4) need and working of hadoop:
+  Ans: need of hadoop for following reasons:
+  1. To manage high volume of data in cost effective manner
+  2. To unify different varieties of data spread across heterogeneous systems
+  3. To capture data from fast-occurring events
+  4. To analyze high volume and wide variety of data to generate valuable insight
+  working of hadoop:
+  The way HDFS works is by having a main NameNode and multiple data nodes on a commodity hardware cluster. 
+  All the nodes are usually organized within the same physical rack in the data center. 
+  Data is then broken down into separate blocks that are distributed among the various data nodes for storage. 
+  Blocks are also replicated across nodes to reduce the likelihood of failure.
